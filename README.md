@@ -2,6 +2,7 @@
 1) Go to '/Home' directory and find '.bashrc' file.
 2) Insert the following code at the end of the file.
 
+[//]: <> (This is also a comment.)
 
 <!--- git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
